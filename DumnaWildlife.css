@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color: #917979f6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #d2b572;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(255, 0, 0);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the elements */
+    padding: 20px;
+}
+
+.marquee-container {
+    width: 30%; /* Width of the marquee section */
+}
+
+.text-container {
+    width: 65%; /* Width of the text sections */
+}
+
+.news {
+    color: red;
+    padding: 10px;
+    margin: 20px 0;
+    height: 600px;
+}
+
+section {
+    padding: 20px;
+}
+
+/* Footer styles */
+#footer {
+    background-color: #917979f6; /* Matches header */
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+    padding: 20px; /* Padding for spacing */
+    position: relative; /* Change to relative to avoid overlap with content */
+    margin-top: 20px; /* Space above the footer */
+}
+
+#footer a {
+    color: white; /* Link color */
+    margin: 0 10px; /* Spacing between links */
+    text-decoration: none; /* Remove underline */
+}
+
+#footer a:hover {
+    color: rgb(255, 0, 0); /* Hover color for links */
+}
+
+.fcred {
+    margin-top: 10px; /* Space between copyright and credits */
+}
+
+#credits {
+    font-size: 0.9em; /* Slightly smaller font for credits */
+}
